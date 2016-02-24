@@ -1,0 +1,31 @@
+{
+  "name": "rticonnextdds-native",
+  "version": "0.1.2",
+  "description": "JavaScript (Node.js) binding for the RTI Connector for Connext DDS",
+  "main": "lib/rtidds.js",
+  "scripts": {
+    "install": "node-gyp configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bryan-Turek/rticonnextdds-connector"
+  },
+  "dependencies": {
+    "nan": "^2.2.0",
+    "segfault-handler": "^1.0.0"
+  },
+  "keywords": [
+    "rti",
+    "dds",
+    "connext",
+    "connector",
+    "pub",
+    "sub",
+    "pub-sub"
+  ],
+  "author": "Bryan Turek <turek.bryan@gmail.com>",
+  "license": "See License File",
+  "devDependencies": {
+    "sleep": "^3.0.1"
+  }
+}
