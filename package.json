@@ -14,6 +14,9 @@
     "nan": "^2.2.0",
     "segfault-handler": "^1.0.0"
   },
+  "devDependencies": {
+    "sleep": "^3.0.1"
+  },
   "keywords": [
     "rti",
     "dds",
@@ -24,8 +27,5 @@
     "pub-sub"
   ],
   "author": "Bryan Turek <turek.bryan@gmail.com>",
-  "license": "See License File",
-  "devDependencies": {
-    "sleep": "^3.0.1"
-  }
+  "license": "See License File"
 }
