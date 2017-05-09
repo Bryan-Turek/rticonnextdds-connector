@@ -19,7 +19,7 @@
     ]
   },
   'targets': [{
-    'target_name': 'rtiddsconnector',
+    'target_name': 'rtiddsconnector_secure',
     'sources': [
       'src/rtiddsconnector.cc',
       'src/connector.cc',
@@ -48,6 +48,16 @@
             '<(module_root_dir)/bin/x64Darwin12clang4.1',
           ],
         },
+      }],
+      ['OS=="linux"', {
+        "link_settings": {
+          "libraries": [
+            '-lrti_dds_connector'
+          ],
+          "library_dirs": [
+            '<(module_root_dir)/bin/x64Linux2.6gcc4.4.5'
+          ]
+        }
       }]
     ]
   }]
