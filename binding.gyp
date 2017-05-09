@@ -19,7 +19,7 @@
     ]
   },
   'targets': [{
-    'target_name': 'rtiddsconnector_secure',
+    'target_name': 'rtiddsconnector',
     'sources': [
       'src/rtiddsconnector.cc',
       'src/connector.cc',
