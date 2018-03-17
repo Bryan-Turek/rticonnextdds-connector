@@ -13,8 +13,8 @@
         'release%': '<!(uname -r)'
       }],
       ['OS=="mac"', {
-      	'libDir%' : "<(module_root_dir)/bin/<(target_arch)<(system)12clang4.1",
-        'rtiLib%': "librti_dds_connector.dylib"
+      	'libDir%' : "<(module_root_dir)/bin/<(target_arch)<(system)12clang8.0",
+        'rtiLib%': "librtiddsconnector.dylib"
       }],
     ]
   },
@@ -42,10 +42,10 @@
         },
         'link_settings': {
           'libraries': [
-            '-lrti_dds_connector'
+            '-lrtiddsconnector'
           ],
           'library_dirs': [
-            '<(module_root_dir)/bin/x64Darwin12clang4.1',
+            '<(module_root_dir)/bin/x64Darwin12clang8.0',
           ],
         },
       }],
